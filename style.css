@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: indigo;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  color: white;
+}
+
+form {
+  margin: 20px 0;
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 5px;
+}
+
+form .input-block {
+  margin-bottom: 20px;
+}
+
+form .input-block label {
+  font-size: 14px;
+  color: indigo;
+}
+
+form .input-block input {
+  width: 100%;
+  display: block;
+  margin-top: 8px;
+  padding: 7px;
+  font-size: 16px;
+  color: indigo;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: indigo;
+}
+
+form .btn-login {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: indigo;
+  color: white;
+  border-radius: 2px;
+  margin: auto;
+  padding: 7px;
+}
+footer {
+  width: 100%;
+  display: block;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+::-webkit-input-placeholder {
+  color: indigo;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: indigo;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: indigo;
+}
+
+:-ms-input-placeholder {
+  color: indigo;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.avatar {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  border-radius: 12px;
+}
